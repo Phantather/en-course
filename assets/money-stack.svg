@@ -1,0 +1,11 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="money-stack">
+<path id="Vector" d="M0 200H240M0 232H240M40 64V40H64M176 40H200V64M40 112V136H64M176 136H200V112M120 120C102.327 120 88 105.673 88 88C88 70.3269 102.327 56 120 56C137.673 56 152 70.3269 152 88C152 105.673 137.673 120 120 120ZM24 8H216C224.837 8 232 15.1634 232 24V152C232 160.837 224.837 168 216 168H24C15.1635 168 8 160.837 8 152V24C8 15.1634 15.1634 8 24 8Z" stroke="url(#paint0_linear_8_329)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8_329" x1="240" y1="7.99829" x2="-27.7179" y2="191.576" gradientUnits="userSpaceOnUse">
+<stop stop-color="#49CCF9"/>
+<stop offset="1" stop-color="#8930FD"/>
+</linearGradient>
+</defs>
+</svg>

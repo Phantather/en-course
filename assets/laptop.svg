@@ -1,0 +1,11 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="laptop">
+<path id="Vector" d="M0 216H240M24 40L24 168C24 176.837 31.1634 184 40 184H200C208.837 184 216 176.837 216 168V40C216 31.1635 208.837 24 200 24L40 24C31.1634 24 24 31.1634 24 40Z" stroke="url(#paint0_linear_8_327)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8_327" x1="240" y1="23.9985" x2="-1.28747e-05" y2="215.999" gradientUnits="userSpaceOnUse">
+<stop stop-color="#49CCF9"/>
+<stop offset="1" stop-color="#8930FD"/>
+</linearGradient>
+</defs>
+</svg>

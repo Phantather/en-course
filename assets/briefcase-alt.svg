@@ -1,0 +1,11 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="briefcase-alt">
+<path id="Vector" d="M88 48V40C88 22.3269 102.327 8 120 8C137.673 8 152 22.3269 152 40V48M8 104C67.2924 171.763 172.708 171.763 232 104M24 56H216C224.837 56 232 63.1634 232 72V216C232 224.837 224.837 232 216 232H24C15.1635 232 8 224.837 8 216V72C8 63.1634 15.1634 56 24 56Z" stroke="url(#paint0_linear_8_328)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8_328" x1="232" y1="7.99829" x2="-28.613" y2="174.791" gradientUnits="userSpaceOnUse">
+<stop stop-color="#49CCF9"/>
+<stop offset="1" stop-color="#8930FD"/>
+</linearGradient>
+</defs>
+</svg>

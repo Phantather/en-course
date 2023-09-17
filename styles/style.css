@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -269,4 +270,108 @@
   font-weight: 400;
   letter-spacing: 0.44px;
   color: #FFFFFF;
+}
+
+.stages {
+  position: relative;
+}
+.stages::before {
+  content: url("../assets/Круги.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.stages__row {
+  padding: 450px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 162px;
+     -moz-column-gap: 162px;
+          column-gap: 162px;
+  position: relative;
+}
+.stages__card {
+  width: calc(33.33333% - 108px);
+  border-radius: 12px;
+  background: var(--White, #FFF);
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(44, 76, 138, 0.2);
+          box-shadow: 0px 8px 20px 0px rgba(44, 76, 138, 0.2);
+  padding: 25px 24px 40px;
+  position: absolute;
+  text-align: center;
+}
+.stages__card::before {
+  content: "";
+  position: absolute;
+  background: url("../assets/Vector.svg") no-repeat;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  border-radius: 12px 12px 0 0;
+}
+.stages__card-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 40px;
+}
+.stages__card-desc {
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.stages__card-back {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+}
+.stages__card-first {
+  top: 120px;
+  left: 120px;
+}
+.stages__card-third {
+  right: 0;
+  bottom: 0;
+}
+
+.modules {
+  padding: 180px 0;
+}
+.modules__content {
+  border-radius: 12px;
+  background: var(--White, #FFF);
+  -webkit-box-shadow: 0px 25px 50px 0px rgba(44, 76, 138, 0.25);
+          box-shadow: 0px 25px 50px 0px rgba(44, 76, 138, 0.25);
+  padding: 48px 112px 80px;
+}
+.modules__title {
+  color: var(--text-text, rgba(0, 0, 0, 0.87));
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+}
+.modules__desc {
+  padding: 48px 0 32px;
+  color: var(--text-text-inactive, rgba(0, 0, 0, 0.6));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.44px;
+}
+.modules__select {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #49CCF9;
+  background: #FFF;
+  padding: 18px 24px;
 }

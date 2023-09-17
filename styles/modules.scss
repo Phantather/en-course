@@ -1,0 +1,30 @@
+.modules {
+  padding: 180px 0;
+  &__content {
+    border-radius: 12px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 25px 50px 0px rgba(44, 76, 138, 0.25);
+    padding: 48px 112px 80px;
+  }
+  &__title {
+    color: var(--text-text, rgba(0, 0, 0, 0.87));
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  &__desc {
+    padding: 48px 0 32px;
+    color: var(--text-text-inactive, rgba(0, 0, 0, 0.60));
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.44px;
+  }
+  &__select {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #49CCF9;
+    background: #FFF;
+    padding: 18px 24px;
+  }
+}
