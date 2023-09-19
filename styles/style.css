@@ -27,8 +27,6 @@
 }
 
 .header {
-  background: -webkit-gradient(linear, left top, right top, from(#531ACA), color-stop(69.06%, #6D3ADA), to(#5D16D1));
-  background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 69.06%, #5D16D1 100%);
   padding: 10px 0;
 }
 .header__nav {
@@ -63,12 +61,10 @@
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.25px;
-  color: #fff;
+  color: #000;
 }
 
 .begin {
-  background: -webkit-gradient(linear, left top, right top, from(#531ACA), color-stop(69.06%, #6D3ADA), to(#5D16D1));
-  background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 69.06%, #5D16D1 100%);
   padding: 49px 0;
 }
 .begin__content {
@@ -83,19 +79,34 @@
   width: 60%;
 }
 .begin__right {
+  background: #fff212;
+  border-radius: 47% 0 47% 44%;
   width: 40%;
+  position: relative;
+}
+.begin__right::before {
+  content: "";
+  width: 100%;
+  height: 500px;
+  border-bottom: 30px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  border-radius: 47%;
 }
 .begin__right img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .begin__title {
   font-size: 60px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 72px;
-  color: #fff;
+  color: #000;
 }
 .begin__desc {
-  color: white;
+  color: #000;
   letter-spacing: 0.44px;
   font-weight: 400;
   line-height: 24px;
@@ -112,56 +123,60 @@
 .begin__btn {
   padding: 16px 24px;
   border-radius: 12px;
-  border: 1px solid #FFF;
+  border: 1px solid #000;
   background: transparent;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.75px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   cursor: pointer;
 }
 .begin__btn:hover {
   border-radius: 12px;
-  background: #7B68EE;
+  background: #fff212;
   -webkit-box-shadow: 0px 1px 6px 0px rgba(31, 41, 55, 0.1), 0px 10px 15px 0px rgba(51, 22, 102, 0.25);
           box-shadow: 0px 1px 6px 0px rgba(31, 41, 55, 0.1), 0px 10px 15px 0px rgba(51, 22, 102, 0.25);
-  border: 1px solid #7B68EE;
+  border: 1px solid #fff212;
 }
 
 .for {
-  padding-top: 278px;
-  background: -webkit-gradient(linear, left top, right top, from(#531ACA), color-stop(69.06%, #6D3ADA), to(#5D16D1));
-  background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 69.06%, #5D16D1 100%);
+  padding: 200px 0 100px;
 }
 .for__content {
   border-radius: 32px;
-  border: 4px solid #49CCF9;
+  border: 5px solid #fff212;
   padding: 80px 45px 64px;
 }
 .for__title {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #000;
   text-align: center;
 }
 .for__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-column-gap: 100px;
      -moz-column-gap: 100px;
           column-gap: 100px;
-  margin-top: 80px;
+  row-gap: 40px;
+  margin: 80px 0 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .for__item {
-  width: calc(33.3333% - 33.33333px);
+  width: calc(33.3333% - 66.66666px);
   text-align: center;
 }
 .for__item-title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #000;
 }
 .for__item-title span {
   position: relative;
@@ -174,26 +189,22 @@
   width: 100%;
   height: 2px;
   border-radius: 32px;
-  background: linear-gradient(225deg, #49CCF9 0%, #A35DFF 69.06%);
+  background: linear-gradient(225deg, #fff212 0%, #000000 69.06%);
 }
 .for__item-desc {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.44px;
-  color: rgba(255, 255, 255, 0.4392156863);
+  color: #000;
   margin-top: 24px;
 }
 
 .edu {
-  padding: 320px 0 200px;
+  padding: 150px 0 200px;
   position: relative;
-}
-.edu__img {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#c2b826), color-stop(69.06%, #fff212), to(#bab02e));
+  background: linear-gradient(90deg, #c2b826 0%, #fff212 69.06%, #bab02e 100%);
 }
 .edu .container {
   position: relative;
@@ -202,7 +213,7 @@
 .edu__title {
   font-size: 48px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #000;
   text-align: center;
   margin-bottom: 150px;
 }
@@ -234,7 +245,7 @@
   right: -70px;
 }
 .edu__info-title {
-  color: #4F239D;
+  color: #000;
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 16px;
@@ -268,12 +279,17 @@
           column-gap: 16px;
   font-size: 16px;
   font-weight: 400;
+  line-height: 20px;
   letter-spacing: 0.44px;
-  color: #FFFFFF;
+  color: #000;
+}
+.edu__list-item svg path {
+  fill: #000;
 }
 
 .stages {
   position: relative;
+  padding: 100px 0;
 }
 .stages::before {
   content: url("../assets/Круги.svg");
@@ -318,7 +334,7 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.15px;
-  color: #FFFFFF;
+  color: #000;
   position: relative;
   z-index: 3;
   margin-bottom: 40px;
@@ -369,9 +385,52 @@
   letter-spacing: 0.44px;
 }
 .modules__select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+}
+.modules__select-option {
   width: 100%;
   border-radius: 12px;
-  border: 1px solid #49CCF9;
-  background: #FFF;
+  border: 1px solid #fff212;
+  background: #fff212;
   padding: 18px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  overflow: hidden;
+  -webkit-transition: display 0.2s ease-in-out;
+  transition: display 0.2s ease-in-out;
+}
+
+.arrow {
+  float: right;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+/* Поворачиваем стрелку при открытии аккордеона */
+.accordion-header.open .arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }

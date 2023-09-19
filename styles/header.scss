@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 69.06%, #5D16D1 100%);
+  //background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 69.06%, #5D16D1 100%);
   padding: 10px 0;
   &__nav {
     display: flex;
@@ -16,7 +16,7 @@
       font-size: 14px;
       font-weight: 400;
       letter-spacing: 0.25px;
-      color: #fff;
+      color: #000;
     }
   }
 }

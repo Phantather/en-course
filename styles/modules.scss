@@ -20,11 +20,40 @@
     line-height: 24px; /* 150% */
     letter-spacing: 0.44px;
   }
-  &__select {
-    width: 100%;
-    border-radius: 12px;
-    border: 1px solid #49CCF9;
-    background: #FFF;
-    padding: 18px 24px;
+  &__select{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &-option {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #fff212;
+      background: #fff212;
+      padding: 18px 24px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
   }
+
+}
+
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  overflow: hidden;
+  transition: display 0.2s ease-in-out;
+}
+
+.arrow {
+  float: right;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Поворачиваем стрелку при открытии аккордеона */
+.accordion-header.open .arrow {
+  transform: rotate(90deg);
 }
