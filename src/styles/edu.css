@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .edu {
   padding: 150px 0 200px;
   position: relative;
@@ -29,7 +30,7 @@
 .edu__info {
   width: 55%;
   padding: 120px 200px 148px 24px;
-  background: url("assets") center/cover no-repeat;
+  background: url("../assets/Круги.svg") center/cover no-repeat;
   border-radius: 16px;
   -webkit-box-shadow: 0px 25px 50px 0px rgba(80, 44, 138, 0.25);
           box-shadow: 0px 25px 50px 0px rgba(80, 44, 138, 0.25);
