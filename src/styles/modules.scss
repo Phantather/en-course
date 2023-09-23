@@ -1,10 +1,44 @@
 .modules {
   padding: 180px 0;
+  &__row {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  &__info {
+    width: 55%;
+    padding: 120px 200px 148px 24px;
+    background:  url("../assets/empty.png") center/cover no-repeat;
+    border-radius: 16px;
+    box-shadow: 0px 25px 50px 0px rgba(80, 44, 138, 0.25);
+    position: relative;
+    margin: 30px 0;
+    &-img {
+      width: 320px;
+      height: 462px;
+      position: absolute;
+      bottom: 0;
+      right: -70px;
+    }
+    &-title {
+      color: #000;
+      font-size: 23px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    &-desc {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.44px;
+    }
+  }
   &__content {
     border-radius: 12px;
     background: var(--White, #FFF);
     box-shadow: 0px 25px 50px 0px rgba(44, 76, 138, 0.25);
-    padding: 48px 112px 80px;
+    padding: 48px 80px;
   }
   &__title {
     color: var(--text-text, rgba(0, 0, 0, 0.87));
@@ -21,6 +55,7 @@
     letter-spacing: 0.44px;
   }
   &__select{
+    width: 45%;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
