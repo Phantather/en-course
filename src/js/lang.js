@@ -154,6 +154,6 @@ const langArr = {
     "footer_req-submit" : {
         "ru": "Отпрвить",
         "en": "Submit",
-    },
+    }
 }
 

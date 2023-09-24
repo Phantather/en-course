@@ -534,6 +534,15 @@
   background: black;
   color: #fff212;
 }
+.footer__card-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  font-size: 30px;
+}
 .footer__logo {
   display: -webkit-box;
   display: -ms-flexbox;

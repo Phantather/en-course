@@ -41,6 +41,11 @@
       background: black;
       color: #fff212;
     }
+    &-links {
+      display: flex;
+      column-gap: 10px;
+      font-size: 30px;
+    }
   }
   &__logo {
     display: flex;
