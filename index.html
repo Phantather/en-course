@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -9,7 +9,7 @@
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#000000, #fff212"/>
     <link rel="apple-touch-icon" href="./src/assets/logo.svg"/>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <link rel="manifest" href="/manifest.json"/>
     <meta name="description" content="Английский для взрослых и детей">
     <meta name="keywords"
           content="Bright future, Курсы английского в Бишкеке, Английский для взрослых и детей">
@@ -50,19 +50,6 @@
                     </span>
                     +996(220)‒26‒89‒40
                 </a>
-                <p class="header__drop ">
-                    <span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.9">
-<path d="M5.99996 8.66675L9.99996 12.6667L14 8.66675M19.3333 10.0001C19.3333 15.1547 15.1546 19.3334 9.99996 19.3334C4.8453 19.3334 0.666625 15.1547 0.666626 10.0001C0.666627 4.84542 4.8453 0.666747 9.99996 0.666748C15.1546 0.666749 19.3333 4.84543 19.3333 10.0001Z" stroke="black" stroke-linecap="square"/>
-</g>
-</svg>
-                    </span>
-                    <span class="lang-header">
-                         Записаться на курс
-                    </span>
-
-                </p>
                 <select class="change-lang">
                     <option value="ru">Ru</option>
                     <option value="en">En</option>
@@ -301,7 +288,6 @@
                 </a>
             </div>
             <div class="footer__card">
-
                 <h2 class="footer__card-title lang-footer_req">
                     Оставьте заявку, и мы свяжемся с вами сами
                 </h2>
@@ -310,7 +296,7 @@
                         <input type="text" class="footer__card-field lang-footer_req-name" name="Name" placeholder="Ваше имя">
                     </label>
                     <label class="footer__card-label">
-                        <input type="tel" id="tel" class="footer__card-field form-tel lang-footer_req-phone" name="Phone" placeholder="Ваш телефон">
+                        <input type="tel" class="footer__card-field form-tel lang-footer_req-phone phone" name="Phone" placeholder="Ваш телефон">
                     </label>
                     <button class="footer__card-btn lang-footer_req-submit" type="submit">
                         Отпрвить
@@ -321,9 +307,22 @@
     </div>
 </footer>
 
+<div class="overlay">
+    <form class="form footer__card-form" action="https://api.sheetmonkey.io/form/fmQw13SeGYgRa5z28NcSqg" method="POST">
+        <label class="footer__card-label">
+            <input id="name" type="text" class="footer__card-field lang-footer_req-name" name="name" placeholder="Ваше имя">
+        </label>
+        <label class="footer__card-label">
+            <input id="phone" type="tel" class="footer__card-field form-tel lang-footer_req-phone phone" name="phone" placeholder="Ваш телефон">
+        </label>
+        <button class="footer__card-btn lang-footer_req-submit" type="submit">
+            Отпрвить
+        </button>
+        <span class="form__close">x</span>
+    </form>
+</div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.5/inputmask.min.js"></script>
 <script src="./src/js/lang.js"></script>
 <script src="./src/js/changeLang.js"></script>
 <script src="./src/js/inputmask.js"></script>

@@ -9,16 +9,14 @@ function changeLanguage() {
 }
 
 function updatePageLanguage(lang) {
-    // Здесь вы должны обновить тексты на странице в соответствии с выбранным языком (lang).
-    // Например, используя объект с переводами langArr.
     for (let key in langArr) {
         let elem = document.querySelector('.lang-' + key);
         if (elem) {
             if (elem.classList.contains('footer__card-field')) {
-                // Если элемент является полем ввода, обновите его placeholder
+                // Если элемент является полем ввода, обновить его placeholder
                 elem.placeholder = langArr[key][lang];
             } else {
-                // В противном случае, обновите текст элемента
+                // В противном случае, обновить текст элемента
                 elem.innerHTML = langArr[key][lang];
             }
         }

@@ -28,10 +28,38 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-let im = new Inputmask("+\\9\\96 (999) 99-99-99");
+let im = new Inputmask("\\9\\96 (999) 99-99-99");
 
-let formTel = document.querySelector('#tel')
+let phones = document.querySelectorAll('.phone')
+phones.forEach((phone) => im.mask(phone))
 
-im.mask(formTel);
+// const scriptURL = 'https://script.google.com/macros/s/AKfycby8W01J_BF29dc57pzZE5FzAW993gyrHiSaoNSjWVyqN7nw96ugqFv7OE-ylJTGVUKWDw/exec'
+// const form = document.forms['submit-to-google-sheet']
+
+// form.addEventListener('submit', e => {
+//     e.preventDefault()
+//     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//         .then(response => console.log('Success!', response))
+//         .catch(error => console.error('Error!', error.message))
+// })
+//
+//
 
 
+let overlay = document.querySelector('.overlay')
+let btnForm = document.querySelector('.lang-begin_s')
+let btnClose = document.querySelector('.form__close')
+
+btnForm.addEventListener('click', () => {
+    overlay.style.display = 'flex'
+})
+
+btnClose.addEventListener('click', () => {
+    overlay.style.display = 'none'
+})
+
+overlay.addEventListener('click', (e) => {
+    if (e.target.className === 'overlay') {
+        overlay.style.display = 'none'
+    }
+})
