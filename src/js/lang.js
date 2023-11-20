@@ -9,7 +9,7 @@ const langArr = {
     },
     "begin_d":{
         "ru": "С носителями языка из Америки и Канады <br> 80 % практики +20% теории уникальная программа «МЕТОД ПОГРУЖЕНИЯ»",
-        "en": "With native speakers from America and Canada <br>   80% practice +20% theory unique program “IMMETHOD”",
+        "en": "With native speakers From America, Great Britain, Canada and Australia. <br>   80% practice +20% theory unique program “Immersion method”",
     },
     "begin_s" :  {
         "ru": "Записаться на курс",
@@ -69,7 +69,7 @@ const langArr = {
     },
     "stages__card-desc2" : {
         "ru": "Онлайн-занятия для тех, кто не успевает ездить на наши курсы.",
-        "en": "Online lessons for those who can't attend our courses in person.",
+        "en": "Online lessons for those who can’t attend our offline lessons.",
     },
     "stages__card-title3" : {
         "ru": "Вашем офисе",
@@ -81,7 +81,7 @@ const langArr = {
     },
     "modules__title" : {
         "ru": "Зачем учить английский с нами?:",
-        "en": "Why learn English with us?",
+        "en": "Why should you learn English with us ?",
     },
     "modules__info-title" : {
         "ru": "Наша миссия:",
@@ -152,6 +152,22 @@ const langArr = {
         "en": "Your phone",
     },
     "footer_req-submit" : {
+        "ru": "Отпрвить",
+        "en": "Submit",
+    },
+    "overlay_req" : {
+        "ru": "Оставьте заявку, и мы свяжемся с вами сами",
+        "en": "Leave a request and we will contact you ourselves",
+    },
+    "overlay_req-name" : {
+        "ru": "Ваше имя",
+        "en": "Your name",
+    },
+    "overlay_req-phone" : {
+        "ru": "Ваш телефон",
+        "en": "Your phone",
+    },
+    "overlay_req-submit" : {
         "ru": "Отпрвить",
         "en": "Submit",
     }
