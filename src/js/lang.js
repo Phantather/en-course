@@ -8,7 +8,7 @@ const langArr = {
         "en": "English for <br> adults and children",
     },
     "begin_d":{
-        "ru": "С носителями языка из Америки и Канады <br> 80 % практики +20% теории уникальная программа «МЕТОД ПОГРУЖЕНИЯ»",
+        "ru": "С носителями языка из Америки, Великобритании, Канады и Австралии <br> 80 % практики +20% теории уникальная программа «МЕТОД ПОГРУЖЕНИЯ»",
         "en": "With native speakers From America, Great Britain, Canada and Australia. <br>   80% practice +20% theory unique program “Immersion method”",
     },
     "begin_s" :  {
