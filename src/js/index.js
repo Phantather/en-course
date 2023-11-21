@@ -63,3 +63,10 @@ overlay.addEventListener('click', (e) => {
         overlay.style.display = 'none'
     }
 })
+
+let burger = document.querySelector('.header__burger')
+let headerMenu = document.querySelector('.header__right')
+burger.addEventListener('click', () => {
+    burger.classList.toggle('active')
+    headerMenu.classList.toggle('active')
+})
