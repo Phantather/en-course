@@ -855,9 +855,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px;
+  row-gap: 40px;
 }
 .footer__card {
   width: calc(25% - 22.5px);
@@ -923,4 +926,10 @@
      -moz-column-gap: 8px;
           column-gap: 8px;
   font-size: 20px;
+}
+
+@media (max-width: 676px) {
+  .footer__card {
+    width: calc(50% - 15px);
+  }
 }
