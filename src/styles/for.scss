@@ -7,7 +7,7 @@
     padding: 80px 45px 64px;
   }
   &__title {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 400;
     color: #000;
     text-align: center;
@@ -50,5 +50,36 @@
       color: #000;
       margin-top: 24px;
     }
+  }
+}
+@media  (max-width: 992px) {
+  .for__item {
+    width: calc(50% - 50px);
+  }
+}
+@media (max-width: 676px) {
+  .for {
+    padding: 100px 0;
+  }
+  .for__title {
+    font-size: 37px;
+  }
+}
+@media (max-width: 576px) {
+  .for__row {
+    row-gap: 50px;
+  }
+  .for__item {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .for__title {
+    font-size: 33px;
+  }
+}
+@media (max-width: 375px) {
+  .for__title {
+    font-size: 28px;
   }
 }

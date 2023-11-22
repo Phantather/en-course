@@ -92,3 +92,67 @@
 .accordion-header.open .arrow {
   transform: rotate(90deg);
 }
+
+@media (max-width: 1024px) {
+  .modules__info {
+    width: 50%;
+    padding: 100px 110px 120px 24px;
+  }
+  .modules__select {
+    width: 50%;
+  }
+}
+@media (max-width: 886px) {
+  //.modules__title {
+  //  font-size: 41px;
+  //}
+  .modules__row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .modules__select, .modules__info {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .modules__title {
+    font-size: 34px;
+  }
+}
+@media (max-width: 676px) {
+  //.modules__title {
+  //  font-size: 28px;
+  //}
+  .modules__select, .modules__info {
+    width: 100%;
+  }
+  .modules__content {
+    padding: 48px 58px;
+  }
+}
+@media (max-width: 576px) {
+  //.modules__title {
+  //  font-size: 25px;
+  //}
+}
+@media (max-width: 500px) {
+  //.modules__title {
+  //  font-size: 23px;
+  //}
+  .modules__content {
+    padding: 38px;
+  }
+}
+@media (max-width: 425px) {
+  .modules__info {
+    padding: 80px 64px 100px 24px;
+  }
+}
+@media (max-width: 375px) {
+  .modules__content {
+    padding: 20px;
+  }
+  .modules__info {
+    padding: 60px 47px 80px 24px;
+  }
+}
