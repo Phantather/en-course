@@ -123,6 +123,10 @@ const langArr = {
         "ru": "Английский язык – это ключ к новым возможностям и мировым горизонтам. С нами вы сможете построить светлое будущее и расширить горизонты своей жизни.",
         "en": "The English language is the key to new opportunities and global horizons. With us, you can build a bright future and expand the horizons of your life.",
     },
+    "teacher__title" : {
+        "ru": "Наша команда",
+        "en": "Our team",
+    },
     "footer_t" : {
         "ru": " Английский для взрослых и детей",
         "en": "English for adults and children",
