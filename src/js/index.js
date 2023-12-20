@@ -16,7 +16,10 @@ let arrPrepods = [
         QualitiesEN: "* Smiling: Positive attitude and cordiality in communication. <br> * Kindness: Attention and care for each student. <br> * Motivation: The desire to inspire students to succeed in their studies.",
         ProfessionalskillsEN: "* Strategic Thinking Experience developing and implementing strategies in various areas. <br> * International Relations: Deep understanding of international markets and relationships. <br> * Leadership Successfully managing multinational teams. * Cultural Flexibility: Adaptation to diverse cultural contexts.\n",
         PersonalInterestsEN: null,
-        img: "./src/assets/Mr.Esen.jpeg"
+        img: "./src/assets/Mr.Esen.jpeg",
+        InternationalExperienceEn:null,
+
+        InternationalExperience: null
     },
     {
         id: 2,
@@ -33,6 +36,9 @@ let arrPrepods = [
         QualitiesEN: "",
         ProfessionalskillsEN: "Excellent command of English as a native language. Deep knowledge of English grammar and vocabulary. Effective use of modern teaching methods. Communication skills, ability to inspire and motivate students.",
         PersonalInterestsEN: null,
+        InternationalExperience: null,
+        InternationalExperienceEn:null,
+
         img: "./src/assets/Mr.Teo.jpeg"
     },
 
@@ -45,12 +51,15 @@ let arrPrepods = [
         experience: "* Преподаватель Английского Языка Государственных школах города Бишкек 2019-2022 <br> * Преподаватель Английского Языка по грамматике Образовательный Центр Bright Future 2022-По настоящее время",
         Qualities: "* Улыбчивость: Позитивный настрой и радушие в общении. <br> * Доброта: Внимание и забота к каждому студенту. <br> * Мотивация: Стремление вдохновлять студентов на успешное обучение.",
         Professionalskills: null,
+        InternationalExperience: null,
         PersonalInterests: null,
         educationEN: "* Master's degree in Philological Education BSU named after K. Karasaev 2021-2023 Bachelor's degree in Philological <br> * Education KSU named after I. Arabaev 2015-2019",
         experienceEN: "* English Language Teacher in Bishkek Public Schools 2019-2022 <br> * English Grammar Teacher at Bright Future Educational Center 2022-Present",
         QualitiesEN: "* Smiling: Positive attitude and cordiality in communication. <br> * Kindness: Attention and care for each student. <br> * Motivation: The desire to inspire students to succeed in their studies.",
         ProfessionalskillsEN: null,
         PersonalInterestsEN: null,
+        InternationalExperienceEn:null,
+
         img: "./src/assets/MissAidana.jpeg"
     },
     {
@@ -63,9 +72,12 @@ let arrPrepods = [
         Professionalskills: "* Преподавание: Эффективная передача знаний, адаптированная под различные уровни студентов. <br> * Онлайн Обучение: Уверенное владение веб-технологиями для эффективного онлайн обучения.",
         PersonalInterests: "Чтение: Преданность классической литературе елизаветинского и викторианского периода.  Корейские Сериалы: Увлечение просмотром кинематографа из Южной Кореи. Аниме: Интерес к мировой анимационной культуре. * Музыка: Страсть к разнообразным жанрам музыки.",
         Qualities: null,
+        InternationalExperience: null,
         educationEN: "Kyrgyz-Turkish Manas UniversityFaculty of Humanities, Department of Western LanguagesProgram: English Language and LiteratureJune 2023",
         experienceEN: "* English Language Teacher at Private Schools in Bishkek June 2021 - January 2023 <br> * Development and delivery of lessons focused on effective learning of the English language. Online TeachingFebruary 2022 - Present <br> * Conducting lessons online, using modern teaching methods through web platforms",
         QualitiesEN: null,
+        InternationalExperienceEn:null,
+
         ProfessionalskillsEN: "* Teaching: Effective transfer of knowledge, adapted to different levels of students. <br> * Online Learning: Confident use of web technologies for effective online learning.",
         PersonalInterestsEN: "Reading: Devotion to the classic literature of the Elizabethan and Victorian periods. Korean TV Series: Passion for watching cinema from South Korea. Anime: Interest in world animation culture. * Music: Passion for a variety of genres of music.",
         img: "./src/assets/MissGul'zar.jpg"
@@ -84,6 +96,9 @@ let arrPrepods = [
         PersonalInterests: null,
         PersonalInterestsEN: null,
         Qualities: null,
+        InternationalExperienceEn:null,
+
+        InternationalExperience: null,
         QualitiesEN: null,
         img: "./src/assets/MissAlina.jpeg"
     },
@@ -93,16 +108,37 @@ let arrPrepods = [
         name: "Mr. Jerry Orphe",
         nameEN: "Mr. Jerry Orphe",
         education: "* Сертификат Международной академии TEFL, Чикаго, Иллинойс [США] по обучению EFL (TESOL)<br>* Технологический колледж Фонтанхед, Ноксвилл, Теннесси [США] Степень младшего специалиста в области веб-разработки.<br>* Средняя школа Алкоа, Алкоа, Теннесси [США] Аттестат средней школы",
-        experience: "* Сентябрь 2022 — Октябрь 2023 Международная Арктическая школа Якутск, RU artic-school.com<br>учитель английского<br>Меня назначили проводить языковые инструкции и репетиторство по подготовке к экзаменам для определенных лиц/групп в этой государственной школе; первичный с трудностями в аудировании/говорении. Иногда я использую различные дисциплины и формулы, чтобы преодолеть трудности, возникающие у ученика при аудировании/говорении. Мы также использовали учебники в течение года. Также несколько раз в месяц провожу внеклассные мероприятия.<br>Август 2021 г. – настоящее время<br>Британский центр (языковой центр ESL и онлайн-школа)<br><br>Ноябрь 2020 - Настоящее Англомания (онлайн-школа)<br>Июнь 2020 - Настоящее время Англочанка (онлайн-школа)<br>Март 2019 — Май 2020<br>Level Eleven (ранее часть London Express) Новосибирск, RU leveleleven.ru<br>учитель английского<br>Меня назначили проводить языковые инструкции и репетиторство по подготовке к экзаменам для определенных лиц/групп в нескольких филиалах по всему городу.",
+        experience: "* Сентябрь 2022 — Октябрь 2023 Международная Арктическая школа Якутск, RU artic-school.com<br>учитель английского<br>Меня назначили проводить языковые инструкции и репетиторство по подготовке к экзаменам для определенных лиц/групп в этой государственной школе; первичный с трудностями в аудировании/говорении. Иногда я использую различные дисциплины и формулы, чтобы преодолеть трудности, возникающие у ученика при аудировании/говорении. Мы также использовали учебники в течение года. Также несколько раз в месяц провожу внеклассные мероприятия.<br>Август 2021 г. – настоящее время<br>Британский центр (языковой центр ESL и онлайн-школа)",
         Professionalskills: null,
         PersonalInterests: null,
         Qualities: null,
         educationEN: "* TEFL International Academy Certificate, Chicago, Illinois, USA in EFL (TESOL) Teaching<br>* Fontanhead Technical College, Knoxville, Tennessee, USA Associate degree in web development<br>* Alcoa High School, Alcoa, Tennessee, USA High School Diploma",
         experienceEN: "* September 2022 – October 2023 International Arctic School Yakutsk, RU artic-school.com<br>English teacher<br>Appointed to conduct language instructions and tutoring for exam preparation for specific individuals/groups in this public school; primary with difficulties in listening/speaking. Sometimes I use various disciplines and formulas to overcome the difficulties that students face in listening/speaking. We also used textbooks throughout the year. Also, several times a month, I conduct extracurricular activities.<br>August 2021 – Present British Center (ESL Language Center and Online School)<br><br>November 2020 - Present AngloMania (Online School)<br>June 2020 - Present Anglochanka (Online School)<br>March 2019 — May 2020 Level Eleven (formerly part of London Express) Novosibirsk, RU leveleleven.ru<br>English teacher<br>Appointed to conduct language instructions and tutoring for exam preparation for specific individuals/groups in several branches throughout the city.",
         QualitiesEN: null,
+        InternationalExperience: null,
+        InternationalExperienceEn:null,
+
         ProfessionalskillsEN: null,
         PersonalInterestsEN: null,
-        img: null  // Замените на путь к изображению преподавателя, если доступно
+        img: "./src/assets/Mr.%20Jerry%20Orphe.jpeg"  // Замените на путь к изображению преподавателя, если доступно
+    },
+    {
+        id: 7,
+        job: "Talking Club instructor",
+        name: "Mr.Prince",
+        nameEN: "Mr.Prince ",
+        education: "Магистратура в Области лингвистики  «Стэнфордский Университет», Америка Бакалавр в Университете «Джос», Нигерия",
+        experience: "Центральной Азии <br>* Работал в «Оксфордской международной школе». <br> * Задачи включали разработку и внедрение образовательных программ, координацию международных образовательных проектов. Алматы, Казахстан «Международной школе «Мира» в Алматы. <br> * Ответственность за обучение английскому языку, разработку учебных материалов, и ведение образовательных мероприятий. Преподавал Английский Язык, Китае <br> * Преподавание английского языка студентам различных уровней.",
+        Professionalskills: null,
+        PersonalInterests: null,
+        InternationalExperience: "Многолетний Опыт Работы по Всему Миру: <br> * Работа в различных культурных средах, что способствовало разностороннему пониманию образовательных потребностей студентов. ",
+        InternationalExperienceEn: "Many Years of Experience Around the World: <br> * Working in different cultural environments, which contributed to a diverse understanding of the educational needs of students.",
+        Qualities: null,
+        experienceEN: "Central Asia <br> * Worked at Oxford International School. <br> * Tasks included the development and implementation of educational programs, coordination of international educational projects. Almaty, Kazakhstan “International School “Peace” in Almaty. <br> * Responsible for teaching English, developing teaching materials, and leading educational activities. Taught English Language, China <br> * Teaching English to students of various levels. <br> * Participation in extraural educational and cultural events. <br> International  experience <br> Many Years of Experience Around the World: <br> * Working in different cultural environments, which contributed to a diverse understanding of the educational needs of students.",
+        QualitiesEN: null,
+        ProfessionalskillsEN: null,
+        PersonalInterestsEN: null,
+        img: "./src/assets/Mr.Prince.jpeg"  // Замените на путь к изображению преподавателя, если доступно
     }
 
 ]
@@ -134,7 +170,7 @@ const getUser = () => {
                 ${item.education ? 
                 `<div class="teacher__card-menu">
                     <h2 class="teacher__card-menu-title">
-                        ${value === "en" ? "Education" : "Оброзавание"}
+                        ${value === "en" ? `Education` : "Оброзавание"}
                     </h2>
                     <p class="teacher__card-menu-desc">
                         ${value === "en" ? item.educationEN : item.education}
@@ -188,6 +224,19 @@ const getUser = () => {
                     </h2>
                     <p class="teacher__card-menu-desc">
                         ${value === "en" ? item.PersonalInterestsEN : item.PersonalInterests}
+                    </p>
+                    </div>` 
+                    : ""
+                }
+                ${  
+                    item.InternationalExperience !== null ? 
+                    `<div class="teacher__card-menu">
+                    <h2 class="teacher__card-menu-title">
+                    ${value === "en" ? "International experience" : "Международный Опыт"}
+                        
+                    </h2>
+                    <p class="teacher__card-menu-desc">
+                        ${value === "en" ? item.InternationalExperienceEn : item.InternationalExperience}
                     </p>
                     </div>` 
                     : ""
