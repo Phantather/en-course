@@ -100,7 +100,7 @@ let arrPrepods = [
 
         InternationalExperience: null,
         QualitiesEN: null,
-        img: "./src/assets/MissAlina.jpeg"
+        img: "./src/assets/Alina.jpeg"
     },
     {
         id: 6,
@@ -253,7 +253,9 @@ const getUser = () => {
         loop: true,
         spaceBetween: 20,
         center:true,
-
+        // autoplay: {
+        //     delay: 5000,
+        //   },
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',

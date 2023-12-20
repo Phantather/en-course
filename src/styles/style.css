@@ -1057,3 +1057,116 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+@media (max-width: 1024px) {
+  .teacher {
+    padding: 0 0 80px 0;
+  }
+  .teacher__card-menus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    row-gap: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-y: scroll;
+  }
+  .teacher__card-menu {
+    padding: 10px;
+    width: 100%;
+  }
+  .teacher__card-menu-desc {
+    line-height: 1.5;
+  }
+  .teacher .swiper-button-prev-el {
+    display: none;
+  }
+  .teacher .swiper-button-next-el {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .teacher {
+    padding: 0 0 80px 0;
+  }
+  .teacher__card-menus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    row-gap: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-y: scroll;
+    scrollbar-color: yellow yellow;
+  }
+  .teacher__card-menu {
+    padding: 10px;
+    width: 100%;
+  }
+  .teacher .swiper-button-prev-el {
+    display: none;
+  }
+  .teacher .swiper-button-next-el {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .teacher__card-menu-desc {
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .teacher__card {
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+    padding: 0;
+  }
+  .teacher__card-imgs {
+    width: 70%;
+  }
+  .teacher__card-menu-title {
+    font-size: 16px;
+  }
+  .teacher__card-menu-desc {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .teacher {
+    padding: 0 0 80px 0;
+  }
+  .teacher .swiper {
+    width: 100%;
+    height: 658px;
+  }
+  .teacher__card {
+    display: table;
+    background-color: white;
+  }
+  .teacher__card-imgs {
+    width: 100%;
+    height: 300px;
+  }
+  .teacher__card-img {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}
+@media (max-width: 375px) {
+  .teacher__card {
+    display: table;
+  }
+  .teacher__card-imgs {
+    width: 100%;
+    height: 300px;
+  }
+  .teacher__card-img {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}
